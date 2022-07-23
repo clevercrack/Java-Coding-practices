@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Arrays {
     public static void main(String args[]) {
+        // Simple declaration of an array
         int marks[] = new int[6];
         marks[0] = 12;
         marks[1] = 15;

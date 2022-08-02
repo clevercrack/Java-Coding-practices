@@ -11,11 +11,11 @@ public class BitManipulationUpdate {
         int bitMask = 1 << pos;
 
         if (oper == 1) {
-            // set
+            // set oper used here by Process
             int newNumber = bitMask | n;
             System.out.println(newNumber);
         } else {
-            // clear
+            // clear operation used here
             int newBitMask = ~(bitMask);// NOT of BM
             int newNumber = newBitMask & n;
             System.out.println(newNumber);

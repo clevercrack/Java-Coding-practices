@@ -5,8 +5,8 @@ public class BitManipulationSet {
         int bitMask = 1 << pos;
 
         // Bit Manipulation To { SET } bit
-        // 1.) First perform Bit mask 1<<i
-        // 2.) Second perform operation OR
+        // 1.) First perform => Bit mask 1<<i
+        // 2.) Second perform => operation OR
 
         int newNumber = bitMask | n; // here we perform OR operation
         System.out.println(newNumber);

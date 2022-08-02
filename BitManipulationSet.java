@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class BitManipulationSet {
     public static void main(String[] args) {
         int n = 5; // 0101
